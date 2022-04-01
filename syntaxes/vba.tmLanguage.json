@@ -12,7 +12,8 @@
 		{ "include": "#option" },
 		{ "include": "#strings" },
 		{ "include": "#types" },
-		{ "include": "#visibility" }
+		{ "include": "#visibility" },
+		{ "include": "#reserved-words" }
 	],
 	"repository": {
 		"comments": {
@@ -68,6 +69,10 @@
 		"visibility": {
 			"name": "storage.modifier.visibility",
 			"match": "\\b(Public|Private|Optional)\\b"
+		},
+		"reserved-words": {
+			"name": "entity.name.function.member.vba",
+			"match": "^([\\s]*([aA](ddressOf|nd|s|ttribute)|[bB](ool(ean)?|y(Ref|te|Val))|[cC](all|ase|onst)|[dD](ate|bl|ec(im(al)?|lare)|o(uble)?)|[eE](ach|lse(If)?|num|rase|vent|xit)|[fF](alse|or|riend|unction)|[gG](et|lobal|o([sS]ub|[tT]o))|[iI](f|mplements|n(t(eger)?)?)|[lL](et|ike|o(ng|op))|[mM]od|[nN](ext|o(thing)?)|[oO](n|ption(al)?|r)|[pP](aramArray|rivate|ublic)|[rR](aiseEvent|e(Dim|sume|turn))|[sS](e(lect|t)|hared|ingle|ng|t(atic|op|r(ing)?)|ub)|[tT](hen|o|rue|ypeOf)|[uU]ntil|[vV]ariant|[wW](end|hile|ith(Events)?)|[xX]or)[ ]*=).*$"
 		}
 	}
 }
