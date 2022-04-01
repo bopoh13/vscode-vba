@@ -72,7 +72,7 @@
 		},
 		"reserved-words": {
 			"name": "entity.name.function.member.vba",
-			"match": "^([\\s]*([aA](ddressOf|nd|s|ttribute)|[bB](ool(ean)?|y(Ref|te|Val))|[cC](all|ase|onst)|[dD](ate|bl|ec(im(al)?|lare)|o(uble)?)|[eE](ach|lse(If)?|num|rase|vent|xit)|[fF](alse|or|riend|unction)|[gG](et|lobal|o([sS]ub|[tT]o))|[iI](f|mplements|n(t(eger)?)?)|[lL](et|ike|o(ng|op))|[mM]od|[nN](ext|o(thing)?)|[oO](n|ption(al)?|r)|[pP](aramArray|rivate|ublic)|[rR](aiseEvent|e(Dim|sume|turn))|[sS](e(lect|t)|hared|ingle|ng|t(atic|op|r(ing)?)|ub)|[tT](hen|o|rue|ypeOf)|[uU]ntil|[vV]ariant|[wW](end|hile|ith(Events)?)|[xX]or)[ ]*=).*$"
+			"match": "(?i)[\\s]+(A(s|nd|ddressOf|ttribute)|B(y(te|Ref|Val)|ool(ean)?)|C(a(ll|se)|onst|B(ool|yte)|D(bl|ate)|Int|Lng|S(ng|tr))|D(ec(imal|lare)|o(uble)?)|E(ach|(nd|lse)(If)?|num|xit|rase|vent)|F(or|alse|riend|unction)|G(o(Sub|To)|et|lobal)|I(f|s|mplements|n(teger)?)|L(et|o(ng|op)|ike)|Mod|N(e(w|xt)|ot(hing)?)|O(n|r|ption(al)?)|P(ublic|rivate|aram[aA]rray)|R(e(Dim|sume|turn)|aise[eE]vent)|S(ub|e(t|lect)|t(op|atic|ring)|hared|ingle)|T(o|hen|rue|ype(Of)?)|Until|Variant|W(end|hile|ith(Events)?)|Xor)[ =(].*$"
 		}
 	}
 }
